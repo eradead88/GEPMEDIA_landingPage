@@ -1,0 +1,20 @@
+@media only screen and (min-width: 320px){
+    .content_text{
+        font-weight: 400;
+        font-size: 18px;
+        word-wrap: break-word;
+        white-space: pre-line;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .content_text {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .content_text {
+        font-size: 30px;
+    }
+}

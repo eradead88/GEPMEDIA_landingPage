@@ -1,0 +1,33 @@
+@media only screen and (min-width: 320px) {
+    .small {
+        width: 15px;
+    }
+
+    .medium {
+        width: 20px;
+    }
+
+    .large {
+        width: 30px;
+    }
+
+    .spacer {
+        width: 80px;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    .small {
+        width: 45px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .spacer {
+        width: 30px;
+    }
+
+    .large {
+        width: 100px;
+    }
+}

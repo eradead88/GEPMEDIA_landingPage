@@ -1,0 +1,162 @@
+@media only screen and (min-width: 320px) {
+    .screen {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(35, 185, 249, 0.4);
+    }
+
+    .container {
+        padding-top: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .hashtag {
+        max-width: 240px;
+    }
+
+    .button_wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .imageholder {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .image {
+        max-width: 240px;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    .image {
+        max-width: 290px;
+    }
+}
+
+@media only screen and (min-width: 414px) {
+    .image {
+        max-width: 350px;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .image {
+        max-width: 270px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .image {
+        max-width: 350px;
+    }
+
+    .hashtag {
+        max-width: 290px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        padding-top: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .hashtag {
+        max-width: 420px;
+    }
+
+    .col1 {
+        padding-top: 120px;
+        padding-right: 10px;
+    }
+
+    .col2 {
+        padding-top: 60px;
+        padding-left: 0px;
+    }
+
+    .button_wrapper {
+        justify-content: flex-start;
+    }
+
+    .image {
+        max-width: 320px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .image {
+        max-width: 570px;
+    }
+
+    .container {
+        padding-top: 35px;
+    }
+
+    .col1 {
+        padding-top: 195px !important; 
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    .image {
+        max-width: 700px;
+    }
+
+    .container {
+        padding-top: 0px;
+    }
+
+    .col1 {
+        padding-top: 250px !important;
+        padding-left: 70px;
+    }
+
+    .hashtag {
+        max-width: 540px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .image {
+        max-width: 650px;
+    }
+
+    .hashtag {
+        max-width: 650px;
+    }
+}
+
+/*special screens*/
+
+/*iPad screen potrait*/
+
+@media (width: 768px) and (height: 1024px) {
+    .screen {
+        height: 60vh;
+    }
+}
+
+/*iPad Pro screen potrait*/
+
+@media (width: 1024px) and (height: 1366.4px) {
+    .screen {
+        height: 60vh;
+    }
+}
+
+@media (min-width: 1920px) and (min-height: 1080px) {
+    .image {
+        max-width: 900px;
+    }
+
+    .hashtag {
+        max-width: 800px;
+    }
+}

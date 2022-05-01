@@ -1,0 +1,16 @@
+@media only screen and (min-width: 320px){
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bullet{
+        max-width: 16px;
+        max-height: 16px;
+    }
+
+    .text {
+        font-size: 18px;
+        font-weight: 500;
+    }
+}

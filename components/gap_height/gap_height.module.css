@@ -1,0 +1,51 @@
+@media only screen and (min-width: 320px) {
+    .small {
+        height: 15px;
+    }
+
+    .medium {
+        height: 20px;
+    }
+
+    .large {
+        height: 30px;
+    }
+
+    .spacer {
+        height: 142px;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    .small {
+        height: 20px;
+    }
+}
+
+@media only screen and (min-width: 414px) {
+    .small {
+        height: 25px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .small {
+        height: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .spacer {
+        height: 30px;
+    }
+
+    .small {
+        height: 20px;
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    .small {
+        height: 30px;
+    }
+}

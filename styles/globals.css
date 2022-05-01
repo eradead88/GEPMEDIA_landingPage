@@ -6,6 +6,10 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+body::-webkit-scrollbar {
+  display: none !important;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -13,4 +17,28 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+@media only screen and (min-width: 320px) {
+  .screen {
+    width: 100vw;
+    overflow: hidden;
+  }
+
+  body {
+    display: flex !important;
+    background-image: url(../public/background_web.png);
+    background-repeat: repeat-y;
+    background-size: 100vw;
+  }
+
+  .styledList {
+    list-style-image: url(../public/checklist.png);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-size: 150vw;
+  }
 }
