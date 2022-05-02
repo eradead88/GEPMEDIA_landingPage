@@ -103,11 +103,13 @@
     }
 
     .contp1 {
-        justify-content: space-between;
+        justify-content: center;
+        column-gap: 40px;
     }
 
     .contp2 {
-        justify-content: space-between;
+        justify-content: center;
+        column-gap: 40px;
     }
 }
 

@@ -1,0 +1,44 @@
+@media (min-width: 320px) {
+    .wrapper {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        column-gap: 10px;
+        padding-inline-start: 0px !important;
+        padding-bottom: 10px;
+        align-items: center;
+    }
+
+    .icon {
+        max-width: 8vw;
+    }
+
+    .text {
+        font-weight: 400;
+    }
+}
+
+@media (min-width: 375px) {
+    .icon {
+        max-width: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    .text {
+        font-size: 13px;
+        font-weight: 600;
+    }
+}
+
+@media (min-width: 1200px){
+    .icon {
+        max-width: 45px;
+    }
+
+    .text {
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
