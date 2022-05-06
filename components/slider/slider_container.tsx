@@ -9,7 +9,9 @@ import LargeSlider from './large_slider'
 function Slider() {
   return (
     <div className={styles.container}>
-       <div className={styles.title}><Title type='title' text='KATA MEREKA'/></div>
+       <div className={styles.title}  id='testimoni'>
+         <Title type='title' text='KATA MEREKA'/>
+         </div>
        <SmallSlider/>
        <LargeSlider/>
     </div>

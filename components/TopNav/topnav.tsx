@@ -27,7 +27,7 @@ function Topbar() {
             <ul className={styles.list}>
                 <div>
                     <li>
-                        <a href='#'><img src='/logo.png' className={styles.IMlogo}/></a>
+                        <a href='#home'><img src='/logo.png' className={styles.IMlogo}/></a>
                     </li>
                 </div>
                 <div className={styles.actions}>
@@ -35,13 +35,13 @@ function Topbar() {
                         <Gap_width type='large'/>
                     </li>
                     <li className={styles.navigations}>
-                        <a href='#'>Beranda</a>
+                        <a href='#home'>Beranda</a>
                     </li>
                     <li className={styles.navigations}>
-                        <a href='#'>Keunggulan</a>
+                        <a href='#keunggulan'>Keunggulan</a>
                     </li>
                     <li className={styles.navigations}>
-                        <a href='#'>Testimoni</a>
+                        <a href='#testimoni'>Testimoni</a>
                     </li>
                     <li className={styles.navigations}>
                         <a href='https://tryout.gepmedia.id/#!/daftar'>Daftar</a>

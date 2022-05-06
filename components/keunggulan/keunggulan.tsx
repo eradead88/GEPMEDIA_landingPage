@@ -9,7 +9,7 @@ import styles from './keunggulan.module.css'
 
 function Keunggulan() {
   return (
-    <div className={styles.screen}>
+    <div className={styles.screen} id='keunggulan'>
         <VideoSection/>
         <PoinPoin/>
     </div>

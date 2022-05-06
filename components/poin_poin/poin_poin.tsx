@@ -8,11 +8,11 @@ function PoinPoin() {
     <div className={styles.container}>
         <Poin1 text='TERPERCAYA DAN BERBADAN HUKUM' src_pic='/2.png' src_text_pic='/3(1).png'/>
         <Poin2 text='TINGKAT KELOLOSAN TINGGI' src_pic='/4(1).png' src_text_pic='/5.png'/>
-        <Poin1 text='TERUPDATE' src_pic='/7.png' src_text_pic='/6.png'/>
+        <Poin1 text='TERUPDATE' src_pic='/TERUPDATE.png' src_text_pic='/6.png'/>
         <Poin2 text='PENGAJAR BERPENGALAMAN DAN BERKUALITAS' src_pic='/8.png' src_text_pic='/9.png'/>
-        <Poin1 text='AKURAT' src_pic='/11.png' src_text_pic='/10.png'/>
-        <Poin2 text='FLEKSIBEL' src_pic='/12.png' src_text_pic='/13.png'/>
-        <Poin1 text='RASIONALISASI' src_pic='/15.png' src_text_pic='/14.png'/>
+        <Poin1 text='AKURAT' src_pic='/AKURAT.png' src_text_pic='/10.png'/>
+        <Poin2 text='FLEKSIBEL' src_pic='/FLEKSIBEL1.png' src_text_pic='/13.png'/>
+        <Poin1 text='RASIONALISASI' src_pic='/RASIONALISASI.png' src_text_pic='/14.png'/>
     </div>
   )
 }

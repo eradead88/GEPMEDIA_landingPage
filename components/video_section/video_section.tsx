@@ -3,6 +3,7 @@ import { Video } from '../youtubevids/youtubevids'
 import styles from '../keunggulan/keunggulan.module.css'
 import Title from '../title_text/title'
 import Gap_height from '../gap_height/gap_height'
+import FadeIn from 'react-fade-in/lib/FadeIn'
 
 function VideoSection(){
     return (

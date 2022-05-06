@@ -15,7 +15,7 @@ function LargeSlider(){
             showThumbs={false}
             showArrows={false}
             infiniteLoop={true}
-            interval={2000}
+            interval={5000}
             showStatus={false}>
                 <div>
                     <img src='/slide1.png' className={styles.large_image}/>

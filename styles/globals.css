@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  scroll-behavior: smooth;
 }
 
 body::-webkit-scrollbar {
@@ -27,7 +28,7 @@ a {
 
   body {
     display: flex !important;
-    background-image: url(../public/background_web.png);
+    background-image: url(../public/gif_bg.gif);
     background-repeat: repeat-y;
     background-size: 100vw;
   }
@@ -71,6 +72,6 @@ a {
 
 @media only screen and (min-width: 768px) {
   body {
-    background-size: 150vw;
+    background-size: 100%;
   }
 }

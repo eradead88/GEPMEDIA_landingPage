@@ -15,7 +15,7 @@ function SmallSlider(){
             showThumbs={false}
             showArrows={false}
             infiniteLoop={true}
-            interval={2000}
+            interval={5000}
             showStatus={false}>
                 <div>
                     <img src='/16.png' className={styles.image}/>

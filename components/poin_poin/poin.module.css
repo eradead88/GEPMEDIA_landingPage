@@ -47,7 +47,7 @@
     }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
     .contp1 {
         display: flex;
         flex-direction: row;
