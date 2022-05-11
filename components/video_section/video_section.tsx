@@ -23,10 +23,10 @@ function VideoSection(){
                 <li className={styles.points}>Pembahasan Soal PTN Terlengkap</li>
             </ul>
             <ul className={styles.subsList}>
-                <li><img src='/youtube_total.png' className={styles.subs}/></li>
-                <li><img src='/instagram_total.png' className={styles.subs}/></li>
-                <li><img src='/tiktok_total.png' className={styles.subs}/></li>
-                <li><img src='/telegram_total.png' className={styles.subs}/></li>
+                <li><a href='https://www.youtube.com/c/GEPMedia'><img src='/youtube_total(1).png' className={styles.subs}/></a></li>
+                <li><a href='https://www.instagram.com/gepmedia.id/'><img src='/instagram_total(1).png' className={styles.subs}/></a></li>
+                <li><a href='https://www.tiktok.com/@gepmedia'><img src='/tiktok_total(1).png' className={styles.subs}/></a></li>
+                <li><a href='https://t.me/lolosptn22'><img src='/telegram_total(1).png' className={styles.subs}/></a></li>
             </ul>
         </div>
     </div>

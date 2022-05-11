@@ -31,6 +31,7 @@ a {
     background-image: url(../public/gif_bg.gif);
     background-repeat: repeat-y;
     background-size: 100vw;
+    -webkit-transform: rotateX(0);
   }
 
   .styledList {
