@@ -32,22 +32,28 @@ function Topbar() {
                 </div>
                 <div className={styles.actions}>
                     <li className={styles.navigations}>
-                        <Gap_width type='large'/>
+                        <Gap_width type='small'/>
                     </li>
                     <li className={styles.navigations}>
-                        <a href='#home'>Beranda</a>
+                        <a href='#home' className={styles.links}>Beranda</a>
                     </li>
                     <li className={styles.navigations}>
-                        <a href='#keunggulan'>Keunggulan</a>
+                        <a href='#keunggulan' className={styles.links}>Keunggulan</a>
                     </li>
                     <li className={styles.navigations}>
-                        <a href='#testimoni'>Testimoni</a>
+                        <a href='#testimoni' className={styles.links}>Testimoni</a>
                     </li>
                     <li className={styles.navigations}>
-                        <a href='https://tryout.gepmedia.id/#!/daftar'>Daftar</a>
+                        <a href='http://simakui.gepmedia.id' className={styles.links}>SIMAK UI</a>
                     </li>
                     <li className={styles.navigations}>
-                        <a href='https://tryout.gepmedia.id/#!/login'>Login</a>
+                        <a href='http://utmbkipb.gepmedia.id' className={styles.links}>UTMBK IPB</a>
+                    </li>
+                    <li className={styles.navigations}>
+                        <a href='https://tryout.gepmedia.id/#!/daftar' className={styles.links}>Daftar</a>
+                    </li>
+                    <li className={styles.navigations}>
+                        <a href='https://tryout.gepmedia.id/#!/login' className={styles.links}>Login</a>
                     </li>
                 </div>
             </ul>

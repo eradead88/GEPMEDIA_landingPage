@@ -18,7 +18,8 @@
         padding-top: 9px;
         padding-left: 9px;
         flex-direction: row;
-        justify-content: space-between;
+        column-gap: 10px;
+        justify-content: left;
         padding-left: 0px;
     }
     
@@ -75,16 +76,21 @@
         font-weight: 600;
         color: black;
         text-align: center;
-        padding-right: 30px;
+        padding-right: 10px;
     }
 
     .actions{
         list-style: none;
         display: flex !important;
-        padding-left: 9px;
+        padding-left: 1px;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: left;
+        column-gap: 15px;
         padding-left: 0px;
+    }
+
+    .links:hover {
+        color: #F23A2E;
     }
 
 }
@@ -95,7 +101,6 @@
         font-weight: 600;
         color: black;
         text-align: center;
-        padding-right: 60px;
     }
 
     .logo {
@@ -108,6 +113,11 @@
         bottom: 39px;
         left: 43px;
     }
+
+    .list {
+        justify-content: space-between;
+    }
+
 
     .IMlogo {
         max-width: 200px;
@@ -126,11 +136,18 @@
 @media only screen and (min-width: 1400px) {
     .navigations {
         font-size: 20px;
-        padding-right: 90px;
+    }
+
+    .actions {
+        column-gap: 40px;
     }
 
     .IMlogo {
         max-width: 300px;
         max-height: 300px;
+    }
+
+    .list {
+        padding-right: 20px;
     }
 }

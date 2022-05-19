@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "antd": "^4.20.5",
+    "firebase": "^9.8.1",
     "next": "12.1.5",
     "react": "18.1.0",
     "react-bootstrap": "^2.3.1",

@@ -7,6 +7,8 @@ import Keunggulan from '../components/keunggulan/keunggulan'
 import Layout from '../components/Layouting/layout'
 import Slider from '../components/slider/slider_container'
 import styles from '../styles/Home.module.css'
+import '../styles/Home.module.css'
+
 
 function Home() {
   return (
