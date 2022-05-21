@@ -1,0 +1,122 @@
+@media (min-width: 320px) {
+    .container {
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+    }
+
+    .col1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .col2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .col1rev {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .col2rev {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .colTitle {
+        text-align: left;
+        padding-bottom: 20px;
+        max-width: 386px;
+    }
+
+    .contp1{
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+
+    .contp2{
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    .contp1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-bottom: 60px;
+    }
+
+    .contp2 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        padding-bottom: 60px;
+    }
+
+    .pointImage{
+        max-width: 300px;
+    }
+
+    .col2rev {
+        margin-right: 130px;
+    }
+
+    .col1 {
+        padding-right: 130px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .pointImage {
+        max-width: 400px;
+    }
+
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (min-width: 1366px) {
+    .pointImage {
+        max-width: 500px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .container {
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+    
+    .pointImage {
+        max-width: 600px;
+    }
+
+    .contp1 {
+        justify-content: center;
+        column-gap: 40px;
+    }
+
+    .contp2 {
+        justify-content: center;
+        column-gap: 40px;
+    }
+}
+
+/*special screens*/
+@media (width: 600px) and (height: 800px) {
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}

@@ -47,7 +47,7 @@ function Topbar() {
                         <a href='http://simakui.gepmedia.id' className={styles.links}>SIMAK UI</a>
                     </li>
                     <li className={styles.navigations}>
-                        <a href='http://utmbkipb.gepmedia.id' className={styles.links}>UTMBK IPB</a>
+                        <a href='/utmbkipb' className={styles.links}>UTMBK IPB</a>
                     </li>
                     <li className={styles.navigations}>
                         <a href='https://tryout.gepmedia.id/#!/daftar' className={styles.links}>Daftar</a>

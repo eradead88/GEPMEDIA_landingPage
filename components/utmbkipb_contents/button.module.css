@@ -2,7 +2,7 @@
     .button_bg {
         align-items: center;
         padding: 0;
-        width: 130px;
+        width: 320px;
         background-color: #F23A2E;
         box-shadow: 0px 9.48px 11.85px rgba(62, 46, 131, 0.2);
         border-radius: 15.8px;
@@ -24,20 +24,28 @@
 
 @media only screen and (min-width: 768px) {
     .button_bg {
-        width: 150px;
+        width: 500px;
+        box-shadow: 0px 2px 11px 1px rgb(26, 26, 26) !important;
     }
 
     .button_txt {
-        font-size: 16px;
+        font-size: 20px;
         padding-right: 7px;
         padding-left: 7px;
         line-height: 30px;
+        font-weight: 600;
+    }
+}
+
+@media(min-width: 1024px) {
+    .button_bg {
+        width: 800px;
     }
 }
 
 @media only screen and (min-width: 1366px) {
     .button_bg {
-        width: 220px;
+        width: 800px;
     }
 
     .button_txt {
@@ -47,11 +55,27 @@
 
 @media only screen and (min-width: 1400px) {
     .button_bg {
-        width: 300px;
+        width: 800px;
     }
 
     .button_txt {
         line-height: 45px;
-        font-size: 20px;
+        font-size: 28px;
+    }
+}
+
+@media(min-width:1600px) {
+    .button_bg {
+        width: 800px;
+    }
+
+    .button_txt {
+        font-size: 28px;
+    }
+}
+
+@media(min-width: 1920px){
+    .button_bg {
+        width: 1200px;
     }
 }
