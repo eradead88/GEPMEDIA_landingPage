@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Gap_width from '../gap_width/gap_width';
+import Sidenav from '../homepage_sidenav/sidenav';
 import styles from './topnav.module.css';
 
 
@@ -28,6 +29,9 @@ function Topbar() {
                 <div>
                     <li>
                         <a href='#home'><img src='/logo.png' className={styles.IMlogo}/></a>
+                    </li>
+                    <li className={styles.navigations_sidebar}>
+                        <Sidenav/>
                     </li>
                 </div>
                 <div className={styles.actions}>

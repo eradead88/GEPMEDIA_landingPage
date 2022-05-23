@@ -11,6 +11,12 @@
     .navigations {
         display: none;
     }
+
+    .navigation_sidebar {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
     
     .list {
         list-style: none;
@@ -77,6 +83,10 @@
         color: black;
         text-align: center;
         padding-right: 10px;
+    }
+
+    .navigation_sidebar{
+        display: none;
     }
 
     .actions{
