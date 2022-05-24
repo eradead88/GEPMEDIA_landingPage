@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Gap_width from '../gap_width/gap_width';
 import Sidenav from '../homepage_sidenav/sidenav';
 import styles from './topnav.module.css';
+import Link from 'next/link';
 
 
 function Topbar() {
@@ -51,7 +52,9 @@ function Topbar() {
                         <a href='http://simakui.gepmedia.id' className={styles.links}>SIMAK UI</a>
                     </li>
                     <li className={styles.navigations}>
-                        <a href='/utmbkipb' className={styles.links}>UTMBK IPB</a>
+                        <Link href='/utmbkipb' passHref={true}>
+                            <a className={styles.links}>UTMBK IPB</a>
+                        </Link>
                     </li>
                     <li className={styles.navigations}>
                         <a href='https://tryout.gepmedia.id/#!/daftar' className={styles.links}>Daftar</a>
