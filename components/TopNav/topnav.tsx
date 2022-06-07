@@ -49,7 +49,9 @@ function Topbar() {
                         <a href='#testimoni' className={styles.links}>Testimoni</a>
                     </li>
                     <li className={styles.navigations}>
-                        <a href='http://simakui.gepmedia.id' className={styles.links}>SIMAK UI</a>
+                        <Link href='/simakui' passHref={true}>
+                            <a className={styles.links}>SIMAK UI</a>
+                        </Link>
                     </li>
                     <li className={styles.navigations}>
                         <Link href='/utmbkipb' passHref={true}>

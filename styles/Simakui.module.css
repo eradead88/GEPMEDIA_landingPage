@@ -1,0 +1,39 @@
+.page::-webkit-scrollbar{
+    display: none !important;
+}
+
+.pb5 {
+    padding-bottom: 3rem !important;
+}
+
+.pt4 {
+    padding-top: 1.5rem !important;
+}
+
+.w100 {
+    width: 100vw !important;
+}
+
+.background_header {
+    overflow-x: hidden;
+    max-width: 100vw;
+    background-position: center;
+    background-size: cover;
+    background-color: #FFF7A7;
+}
+
+.content, .call_to_action{
+    margin-top: 20px;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+
+
+@media(min-width: 1200px){
+    .background_header {
+    }
+
+    .w100 {
+    }
+}

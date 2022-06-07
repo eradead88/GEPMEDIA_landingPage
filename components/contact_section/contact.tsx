@@ -6,7 +6,7 @@ function Contact() {
   return (
     <div className={styles.container}>
         <div className={styles.img_container}>
-            <img src='/contact.png' className={styles.image}/>
+            <img src='/contact_compressed.png' className={styles.image}/>
         </div>
         <div className={styles.contacts_container}>
             <ul className={styles.list}>

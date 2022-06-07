@@ -1,0 +1,33 @@
+.container, .container_fluid, .container_lg, .container_md, .container_sm, .container_xl, .container_xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text_title_content{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #494848;
+}
+
+.positionRelative{
+    position: relative;
+}
+
+.positionAbsolute{
+    position: absolute;
+}
+
+.py2{
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.mt5{
+    margin-top: 3rem !important;
+}

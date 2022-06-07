@@ -29,9 +29,6 @@ a {
 
   body {
     display: flex !important;
-    background-image: url(../public/gif_bg.gif);
-    background-repeat: repeat-y;
-    background-size: 100vw;
     filter: none;
     will-change: unset;
   }

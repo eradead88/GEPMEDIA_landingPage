@@ -8,6 +8,7 @@
         border-radius: 15.8px;
         display: block;
         text-align: center;
+        z-index: 2;
     }
 
     .button_txt {

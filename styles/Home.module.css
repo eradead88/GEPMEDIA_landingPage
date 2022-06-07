@@ -2,6 +2,12 @@
   padding: 0 2rem;
 }
 
+.screen {
+  background-image: url(../public/gif_bg.gif);
+  background-repeat: repeat-y;
+  background-size: 100vw;
+}
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
@@ -112,6 +118,12 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+}
+
+@media(min-width: 768px){
+  .screen{
+    background-size: 100%;
   }
 }
 

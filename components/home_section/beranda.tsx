@@ -12,7 +12,7 @@ function Beranda() {
         <div className={styles.container}>
             <FadeIn transitionDuration={1000}> 
              <div className={styles.col1}>
-                 <img src='/SIAPUTBK.png' className={styles.hashtag}/>
+                 <img src='/SIAPUTBK_compressed.png' className={styles.hashtag}/>
                  <Gap_height type='small'/>
                  <Content_text content='GEP Media merupakan platform belajar terlengkap dan terpercaya untuk menggapai mimpi sampai kampus impian, informasi paling UPDATE mengenai Perguruan Tinggi Negeri di Indonesia.'/>
                  <Gap_height type='small'/>
@@ -28,7 +28,7 @@ function Beranda() {
             <FadeIn transitionDuration={1000}>
             <div className={styles.col2}>
                 <div className={styles.imageholder}>
-                    <img src='/1.png' className={styles.image}/>
+                    <img src='/1_compressed.png' className={styles.image}/>
                 </div>
             </div>
             </FadeIn>

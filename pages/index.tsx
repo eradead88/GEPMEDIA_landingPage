@@ -12,12 +12,14 @@ import '../styles/Home.module.css'
 
 function Home() {
   return (
-    <Layout>
-      <Beranda/>
-      <Keunggulan/>
-      <Slider/>
-      <Contact/>
-    </Layout>
+    <div className={styles.screen}>
+      <Layout>
+        <Beranda/>
+        <Keunggulan/>
+        <Slider/>
+        <Contact/>
+      </Layout>
+    </div>
   )
 }
 
