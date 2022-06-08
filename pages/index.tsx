@@ -13,6 +13,10 @@ import '../styles/Home.module.css'
 function Home() {
   return (
     <div className={styles.screen}>
+      <Head>
+        <title>GEP Media</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+      </Head>
       <Layout>
         <Beranda/>
         <Keunggulan/>

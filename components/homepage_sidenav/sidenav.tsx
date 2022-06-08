@@ -12,7 +12,7 @@ function Sidenav() {
             <a href='#home'>Beranda</a>
             <a href='#keunggulan'>Keunggulan</a>
             <a href='#testimoni'>Testimoni</a>
-            <a href='http://simakui.gepmedia.id'>Simak UI</a>
+            <Link href='/simakui'><a>Simak UI</a></Link>
             <Link href='/utmbkipb'><a>UTMBK IPB</a></Link>
             <a href='https://tryout.gepmedia.id/#!/daftar'>Daftar</a>
             <a href='https://tryout.gepmedia.id/#!/login'>Login</a>
