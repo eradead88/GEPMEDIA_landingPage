@@ -27,13 +27,3 @@
     overflow-x: hidden;
     max-width: 100%;
 }
-
-
-
-@media(min-width: 1200px){
-    .background_header {
-    }
-
-    .w100 {
-    }
-}

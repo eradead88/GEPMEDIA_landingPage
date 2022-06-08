@@ -70,7 +70,7 @@
 }
 
 .zoominout{
-    animation: zoom_in_zoom_out 3s ease infinite;
+    animation: zoom_in_zoom_out ease infinite 3s;
 }
 
 @keyframes zoom_in_zoom_out {
@@ -88,16 +88,16 @@
 }
 
 .updown1{
-    -webkit-animation: mover 3s infinite alternate;
-    animation: mover 5s infinte alternate;
+    -webkit-animation: mover infinite alternate 3s;
+    animation: mover infinite alternate 5s;
 }
 .updown2{
-    -webkit-animation: mover 3s infinite  alternate;
-    animation: mover 5s infinite  alternate;
+    -webkit-animation: mover infinite  alternate 3s;
+    animation: mover infinite  alternate 5s;
 }
 .updown3{
-    -webkit-animation: mover_short 3s infinite  alternate;
-    animation: mover_short 5s infinite  alternate;
+    -webkit-animation: mover_short infinite  alternate 3s;
+    animation: mover_short infinite  alternate 5s;
 }
 @-webkit-keyframes mover_short {
     0% { transform: translateY(0); }
@@ -117,7 +117,7 @@
 }
 
 .rotate {
-    animation: rotation 8s infinite linear;
+    animation: rotation infinite linear 8s;
 }
 
 @keyframes rotation {
@@ -272,10 +272,6 @@
 
     .heroPage {
         height: 100vh;
-    }
-
-    .container, .containerFluid, .containerLg, .containerMd, .containerSm, .containerXl, .containerXxl {
-        
     }
     
 }

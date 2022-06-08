@@ -2,8 +2,9 @@ import React from 'react'
 import layoutings from '../container_and_positions/containers_positions.module.css'
 import textlayouts from './content.module.css'
 import styles from './cta.module.css'
-import cards from './pricing_cards.module.scss'
+import cards from './pricing_cards.module.css'
 import Link from 'next/link'
+
 const Fade = require("react-reveal/Fade");
 
 function CardDescription({ title }) {	
@@ -31,7 +32,7 @@ function CardFeatures({ data }) {
 				{ 
 					data.map((item, index) => {
 						return (
-							<li key={index}>{item}</li>
+							<li className={cards.list_items} key={index}>{item}</li>
 						)
 					})
 				}
@@ -59,7 +60,7 @@ function PricingCard(props) {
   } = props;
 	
 	return (
-		<div className={`${cards.card} ${type}`} id={type == 'pro' ? `${cards.pro}` : `${cards.basic}`}>
+		<div className={`${cards.card}`} id={type == 'pro' ? `${cards.pro}` : `${cards.basic}`}>
       { (mostPopular) ? <span className="most-popular">Most Popular</span> : null }
 			<CardDescription title={title} />
 			<CardBilling price={price} recurrency={recurrency} />
